@@ -1,0 +1,95 @@
+body {
+  background-image:  url("../images/tree_bg.jpg");
+  background-size: 100%;
+  text-align: center;
+  
+}
+
+
+h1 {
+
+  color: red;
+  @font-face{
+  font-family: 'MyWebFont';
+  src: url('../fonts/WebFont-Italic-Bold.eot');
+  src: url('../fonts/WebFont-Italic-Bold.eot?iefix') format('eot'),
+  url('../fonts/WebFont-Italic-Bold.woff') format('woff'),
+  url('../fonts/WebFont-Italic-Bold.ttf') format('truetype'),
+  url('../fonts/WebFont-Italic-Bold.svg#webfont') format('svg');
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+}
+
+  
+
+  .top {
+    width: 30px; 
+    height: 30px;
+    background: yellow;
+    border-radius: 50%;
+    margin: auto;
+    
+  }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+
+  .layer-1 {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 80px solid green;
+    margin: auto;
+  }
+
+  .layer-2 {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 120px solid green;
+    margin: auto;
+  }
+
+  .layer-3 {
+    width: 0;
+    height: 0;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    border-bottom: 150px solid green;
+    margin: auto;
+  }
+
+  .trunk {
+    width: 30px;
+    height: 60px;
+    background-color: brown;
+    margin: auto;
+  }
+
+  .tree-wrapper {
+    animation: nev 5s infinite alternate;
+  }
+
+  @keyframes nev {
+    0% {
+      opacity: 0;
+
+    }
+
+    20% {
+      opacity: 0.2;
+
+    }
+
+    50% {
+      opacity: 0.5;
+
+    }
+
+    100% {
+      opacity: 1;
+
+    }
